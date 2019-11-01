@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Marie-claude lam</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ipsa nam voluptas aliquam debitis tempore odit, unde reiciendis tenetur perferendis nulla blanditiis laboriosam aliquid, laborum alias error optio velit numquam!</p>
 
 </body>
 </html>
