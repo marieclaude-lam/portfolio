@@ -1,18 +1,18 @@
-ul,li {
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    color:#242423;
+}
+dl,ul,li {
     list-style-type: none;
+    margin-bottom:0;
 }
 section .heading h2{
     text-transform: uppercase;
     text-align: center;
-    padding-top:2%;
-}
-
-/**************************************************************************************************
-                                        Expérience
-**************************************************************************************************/
-#experience{
-    background: #f5cb5c;
-    padding-top: 2%;
+    padding:3% 0;
 }
 .white-divider{
     width: 20%;
@@ -20,6 +20,111 @@ section .heading h2{
     background:#cfdbd5;
     margin:0 auto;
 }
+.yellow-divider{
+    width: 20%;
+    height:2px;
+    background:#f4cc5b;
+    margin:0 auto;
+}
+/**************************************************************************************************
+                                        HEADER
+**************************************************************************************************/
+/**************************************************************************************************
+                                        NAVBAR
+**************************************************************************************************/
+
+
+
+/**************************************************************************************************
+                                        Home
+**************************************************************************************************/
+.welcome{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 81, 0, 0.5)),url(image/test.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 20rem 0;
+    text-align: center;
+    color: rgb(254,254,254);
+    opacity:O;
+    
+
+}
+.welcome p{
+    font-size:3rem;
+    font-family: 'Permanent Marker', cursive;
+    animation:0.8s zoom ease-in-out forwards;
+}
+
+.welcome H1{
+    font-size:5rem;
+}
+@media screen and (max-width: 580px) {
+    .welcome{
+        padding-bottom:10rem;
+    }
+    .welcome p{
+        font-size:1.5rem;
+    }
+    .welcome H1{
+        font-size:2.5rem;
+    }
+}
+/**************************************************************************************************
+                                        Présentation
+**************************************************************************************************/
+#presentation{
+    background: #f5cb5c;
+    padding: 2% 0% ;
+}
+#presentation h2{
+    text-align: center;
+}
+.description {
+    display: flex;
+}
+.description > img{
+    padding-right: 10%;
+}
+
+/**************************************************************************************************
+                                        Compétences
+**************************************************************************************************/
+#competences{
+    background-color:#e8eddf;
+    padding: 2% 0% ;
+}
+.services {
+    display:flex;
+    justify-content:space-between;
+}
+.services > article{
+    text-align: center;
+    border: 1px solid  #f5cb5c ;
+    background-color:  #f5cb5c;
+    border-radius:7px;
+    padding: 20px 25px;;
+}
+.fas{
+    padding:10px;
+}
+@media screen and (max-width: 580px) {
+    .services{
+        flex-direction: column;
+    }
+    .services > article{
+        margin-bottom:2rem;
+    }
+}
+
+/**************************************************************************************************
+                                        Expérience
+**************************************************************************************************/
+#experience{
+    background: #f5cb5c;
+    padding: 2% 0% ;
+    max-height:3000px;
+}
+
 .timeline{
     padding:30px 10px;
     position: relative;
@@ -69,6 +174,7 @@ section .heading h2{
 }
 .timeline-panel{
     width:90%;
+    height: 20%;
     float: right;
     margin-right: 40px;
     border: 1px solid #e8eddf;
@@ -107,3 +213,67 @@ section .heading h2{
 .timeline-heading h4{
     color:#f5cb5c;
 }
+@media screen and (max-width: 580px) {
+    .timeline-heading h3{
+        font-size: 1.1rem;
+    }
+    .timeline-heading h4{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+
+}
+
+
+/******************************************************************************
+                                        Parcours
+******************************************************************************/
+#formations{
+    background-color:#e8eddf;
+    padding: 2% 0% ;
+}
+.school{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.formation{
+    border: 1px solid black;
+    border: 1px solid #f5cb5c;
+    border-radius:7px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.175);
+    padding:3% 2%;
+    width: 20%;
+    text-align: center;
+    background-color:#f5cb5c;   
+}
+.formation > hr {
+    width: 20%;
+    border: 1px solid #cfdbd5;
+}
+
+.formation-badge{
+    font-size:40px;
+    color:#cfdbd5;
+}
+.formation h4{
+    text-transform: uppercase;
+    font-size:1.3rem;
+}
+@media screen and (max-width: 580px) {
+   
+    .school {
+        flex-direction: column;
+        align-items: center;
+    }
+    .formation{
+        width:80%;
+        margin-bottom: 2rem;
+    }
+}
+/**************************************************************************************************
+                                        PORTFOLIO
+**************************************************************************************************/
