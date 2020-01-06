@@ -1,55 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<title>Marie-Claude LAM</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/6a5f3d051e.js"></script>
-<!--    <script src="home.js"></script> -->
-    <title>Marie-Claude LAM</title>
+    <link rel="stylesheet" href="home.css">
 
 </head>
 <!-----------------------------------------------------------------------------------------------------
                                             HEADER
-------------------------------------------------------------------------------------------------------->
-    <header> 
+------------------------------------------------------------------------------------------------------->    
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+
+      
+<nav class="navbar navbar-expand-md navbar-dark sticky-top">
+    <a class="navbar-brand" href="#"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+            <i class="fas fa-bars fa-lg"></i>
+    </button>
     
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="#acceuil"><img id="logo" src="image/marie lam developpeur.png" alt="marieclaude lam"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#presentation">Présentation<span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#experience">Parcours</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Log In</a>
-                </li>
+    <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
+        <ul class="nav nav-pills navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#presentation">Présentation</a></li>
+            <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#formations">Formations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
 
-            </ul>
-        </div>
-    </nav>
-
+        </ul>
+    </div>
+</nav>
+    <header>
  
     <section class="welcome">
+    
        <p>Bienvenue, Je suis</p>
         <H1>Marie-Claude LAM</H1>
     <p>Intégratrice Web | Développeuse Front-end & Back-end</p>
@@ -70,9 +63,13 @@
             <h2>Qui suis-je?</h2>
         </div>
         <div class="description">
-        <img src="image/profil1.jpg" alt="profil" width=30%>
+        <img src="image/profil1.jpg" alt="profil" width=30% height=30%>
         
+        <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis culpa aliquam aperiam repellendus? Officiis dicta animi unde quas error, iusto molestiae sunt provident libero. Quas, nulla deleniti! Consequatur, aut?</p>
+        <hr>
+        <a href="docs/cv marie-claude lam.pdf" class="button1">Télécharger CV</a>
+        </div>
         </div>
     </div>
 </section>
@@ -289,13 +286,25 @@
 ------------------------------------------------------------------------------------------------------->
 
 <section id="portfolio">
+    <div class="container">
+            <div class="white-divider"></div>
+            <div class="heading">
+                <h2> Portfolio </h2>
+            </div>
+    </div>
+
 
 </section>
 <!-----------------------------------------------------------------------------------------------------
                                            CONTACT
 ------------------------------------------------------------------------------------------------------->
-<section id="contact"></section>
-<body>
-    
+<section id="contact">
+    <div class="container">
+        <div class="yellow-divider"></div>
+            <div class="heading">
+                <h2>Contact</h2>
+            </div>
+    </div>
+</section>
 </body>
 </html>
