@@ -41,7 +41,7 @@
 </nav>
     <header>
  
-    <section class="welcome">
+    <section id="welcome">
     
        <p>Bienvenue, Je suis</p>
         <H1>Marie-Claude LAM</H1>
@@ -84,59 +84,108 @@
         </div>
     <div class="services">
     <article>
-        <div>
-            <h3><i class="fas fa-file-code"></i><br>Développement <br> Front-end</h3>
+        <div class="competence-badge">
+            <i class="fas fa-file-code"></i><br>
         </div>
-        <div>
-            <p>tâches dev front</p>
-            <p>tâches dev front</p>
-            <p>tâches dev front</p>
-        </div>
-        <div>
-            <img src="#" alt="Html5">
-            <img src="#" alt="Javascript">
-            <img src="#" alt="CSS">
-            <br>
-            <img src="#" alt="ReactJS">
-            <img src="#" alt="Canva">
-            <img src="#" alt="BootStrap">
-            <br>
-            <img src="#" alt="SEO">
-        </div>
-    </article>
-    <article>
-        <div>
-            <h3><i class="fas fa-database"></i><br>Développement <br>Back-end</h3>
-        </div>
-        <div>
-            <p>tâches dev back</p>
-            <p>tâches dev back</p>
-            <p>tâches dev back</p>
-        </div>
-        <div>
-            <img src="#" alt="PHP">
-            <img src="#" alt="SQL">
-            <img src="#" alt="POO">
+            <h4>Développement <br> Front-end</h4>
+        
+        <ul>
+            <li>Intégration web</li>
+            <li>Responsive design</li>
+            <li>Référencement naturel</li>
+            <li>Dynamisme & animations</li>
+        </ul>
+   <hr>
+
+        <div class="logo">
+            <div>
+                    <img src="image/logo/html.png" alt="html">
+                    <p>HTML</p>
+                </div>
+            <div>
+                <div>
+                    <img src="image/logo/css.png" alt="css">
+                    <p> CSS</p>
+                </div>
+            </div>
+            <div>
+                    <img src="image/logo/js.png" alt="Javascript">
+                    <p> Javascript</p>
+                </div>
         </div>
     </article>
     <article>
+    <div class="competence-badge">
+            <i class="fas fa-database"></i><br>
+</div>
+            <h4>Développement <br>Back-end</h4>
+        <ul>
+            <li>Sécurité & protection des données</li>
+            <li>Interface d'administration</li>
+            <li>API & Webservices</li>
+            <li>E-Commerce</li>
+        </ul>
+        <hr>
         <div>
-            <h3><i class="fas fa-globe"></i><br></i>et plus encore</h3>
+        <div class="logo">
+            <div>
+                <img src="image/logo/php.png" alt="php">
+                <p>PHP</p>
+            </div>
+            <div>
+                <img src="image/logo/msql.png" alt="sql">
+                <p> SQL</p>
+            </div>
         </div>
-        <div>
-            <p>tâches dev front</p>
-            <p>tâches dev front</p>
-            <p>tâches dev front</p>
-        </div>
-        <div>
-            <img src="#" alt="Wordpress">
-            <img src="#" alt="Jimdo"><br>
-            <img src="#" alt="Wix">
-            <img src="#" alt="Adobe Photoshop"><br>
-            <img src="#" alt="Magento">
-            <img src="#" alt="SAP"><br>
-            <img src="#" alt="Jquery">
-        </div>
+    </article>
+    <article>
+    <div class="competence-badge">
+            <i class="fas fa-globe"></i><br>
+    </div>
+            <h4 style="padding: 14px 0;">et plus encore</h4>
+        <ul>
+            <li>Intégration WordPress</li>
+            <li>Mise en ligne & assistance</li>
+            <li>Frameworks & Librairies</li>
+        </ul>
+        <hr>
+        <div class="logo">
+            <div>
+                <div>
+                    <img src="image/logo/wordpress.png" alt="wordpress">
+                    <p>Wordpress</p>
+                </div>
+                <div>
+                    <img src="image/logo/Jimdo.jpg" alt="jimdo">
+                    <p> Jimdo</p>
+                </div>
+                <div>
+                    <img src="image/logo/Wix.png" alt="wix">
+                    <p>wix</p>
+                </div>
+                <div>
+                    <img src="image/logo/photoshop.png" alt="adobe photoshop">
+                    <p> photoshop</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="image/logo/magento.png" alt="magento">
+                    <p>Magento</p>
+                </div>
+                <div>
+                    <img src="image/logo/sap.png" alt="sap">
+                    <p> Sap</p>
+                </div>
+                <div>
+                    <img src="image/logo/Jquery.png" alt="jquery">
+                    <p> Jquery</p>
+                </div>
+                <div>
+                    <img src="image/logo/boot.png" alt="bootstrap">
+                    <p> Bootstrap</p>
+                </div>
+            </div>    
         </div>
     </article>
 </section>
@@ -211,7 +260,7 @@
                     <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h3>BOUYGUES CONSTRUCTION <br> <small>CHILLY MAZARIN</small></h3>
-                                <h4>Controleur de gestion</h4>
+                                <h4>Contrôleur de gestion</h4>
                                 <p class="text-muted"><small><i class="far fa-clock"></i> 2011 </small></p>
                             </div>
                             <div class="timeline-body">
@@ -291,8 +340,23 @@
             <div class="heading">
                 <h2> Portfolio </h2>
             </div>
-    </div>
-
+        <div class="apercu">
+            <a href="#"><img src="image/portfolio/creasoul.jpg" alt="html css"></a>
+            <a href="#"><img src="image/portfolio/mindgeek.png" alt="html css"></a>
+            <a href="#"><img src="image/portfolio/realty group.png" alt="html css"></a>
+        </div>
+<br>
+        <div class="apercu">
+            <a href="#"><img src="image/portfolio/snake.png" alt="javascript"></a>
+            <a href="#"><img src="image/portfolio/travel.png" alt="javascript"></a>
+            <a href="#"><img src="image/portfolio/news.png" alt="javascript"></a>
+        </div>
+<br>
+        <div class="apercu">
+            <a href="#"><img src="image/portfolio/cup.png" alt="javascript"></a>
+            <a href="#"><img src="image/portfolio/wolfgang.png" alt="javascript"></a>
+            <a href="#"><img src="image/portfolio/news.png" alt="javascript"></a>
+        </div>
 
 </section>
 <!-----------------------------------------------------------------------------------------------------
@@ -304,7 +368,49 @@
             <div class="heading">
                 <h2>Contact</h2>
             </div>
-    </div>
+            <div class="content">
+            <article class="message">
+                    <p>Un message à me transmettre ?</p>
+                    <div>
+                        <label for="nom"> <input type="text" placeholder="Nom" style="width: 223px;"> </label>
+                        <label for="prenom"><input type="text" placeholder="Prénom" style="width: 223px;"></label>
+                        </div>                    
+                        <label for="mail"><input type="email" placeholder="Mail" width="100%" style="width: 450px;"></label>
+                    <br>
+                        <label for="objet"><input type="text" placeholder="Objet" style="width: 450px;"></label>
+                    <br>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Votre message" style="width: 450px;"></textarea>
+                    <br>
+                        <button type="submit"> Envoyer </button>
+                </article>
+                <article class="info">
+                    <p>Mes Coordonnées</p>
+                    <div >
+                    <a href="https://www.google.com/maps/place/19e+Arrondissement+de+Paris,+75019+Paris/@48.8870901,2.3527106,13z/data=!3m1!4b1!4m5!3m4!1s0x47e66dc8c1efd7e7:0x50b82c368941b70!8m2!3d48.8823992!4d2.3819935"><address> <i class="fas fa-map-marker-alt"></i> Paris 19ème</address></a>
+                    <a href="mailto:marieclaude.lam@gmail.com"><i class="fas fa-envelope"></i>contact@mclam.fr</a><br>
+                    <a href="tel:+33750318636" »><i class="fas fa-phone"></i>07.50.31.86.36</a>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41975.76277629777!2d2.3527106278046!3d48.88709014819185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66dc8c1efd7e7%3A0x50b82c368941b70!2s19e%20Arrondissement%20de%20Paris%2C%2075019%20Paris!5e0!3m2!1sfr!2sfr!4v1578937171409!5m2!1sfr!2sfr" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </article>
+               
+                
+             </div>
 </section>
+<!-----------------------------------------------------------------------------------------------------
+                                           FOOTER
+------------------------------------------------------------------------------------------------------->
+
+<footer class="text-center">
+                <a href="#welcome">
+                    <i class="fas fa-chevron-circle-up"></i>
+                </a>
+            <div>
+                <a href="https://www.linkedin.com/in/marieclaudelam">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+            <p> Copyright © 2019 Marie-claude LAM</p>
+        </footer>
+
 </body>
 </html>

@@ -1,0 +1,1 @@
+'use strict';function nbOfJours(date1,date2){return Math.ceil((date1.getTime()-date2.getTime())/(1000*60*60*24))}
