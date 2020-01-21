@@ -21,13 +21,13 @@ section .heading h2{
 .white-divider{
     width: 20%;
     height:2px;
-    background:#cfdbd5;
+    background:#f1f1f2;
     margin:0 auto;
 }
 .yellow-divider{
     width: 20%;
     height:2px;
-    background:#f4cc5b;
+    background:#a1d6e2;
     margin:1% auto;
 }
 
@@ -39,12 +39,12 @@ section .heading h2{
                                         NAVBAR
 **************************************************************************************************/
 nav{
-    background-color:#f5cb5c;
+    background-color:#a1d6e2;
     font-size: 1rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     font-weight: bold;
-    border-bottom: 1px solid #e8eddf;
+    border-bottom: 1px solid #f1f1f2;
 }
 
 .nav .navbar-nav{
@@ -59,8 +59,8 @@ nav{
     margin: 0 1rem;
 }
 .nav-pills .nav-link.active,  .nav-pills .nav-link:hover{
-    color:#e8eddf !important;
-    background-color: #E78300 !important;
+    color:#f1f1f2 !important;
+    background-color: #1995ad !important;
    
 }
 .navbar-light .navbar-toggler {
@@ -84,7 +84,7 @@ nav{
                                         Home
 **************************************************************************************************/
 #welcome{
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 81, 0, 0.5)),url(image/test.jpg);
+    background-image: linear-gradient(rgba(57, 80, 153, 0.5), rgba(25, 149, 173, 0.5)),url(image/test.jpg);
     background-size: cover;
     width: 100%;
     padding: 13rem 0;
@@ -118,8 +118,8 @@ nav{
                                         Présentation
 **************************************************************************************************/
 #presentation{
-    background: #f5cb5c;
-    padding: 2% 0% ;
+    background: #a1d6e2;
+    padding: 2% 0% 5% 0;
 }
 #presentation h2{
     text-align: center;
@@ -137,17 +137,18 @@ nav{
 .button1{
     font-weight: bold;
     text-transform: uppercase;
-    color: #e8eddf;
-    border: 1px solid #e8eddf;
+    color: #f1f1f2;
+    border: 1px solid #f1f1f2;
     display: inline-block;
     margin-top:  20px;
     padding: 18px 50px;
-    border-radius: 3px;
+    border-radius: 7px;
     transition: all 0.3s ease-in 0s;
+    text-align: center;
 }
 .button1:hover{
-    background: #e8eddf;
-    color: #f5cb5c;
+    background: #f1f1f2;
+    color: #a1d6e2;
     text-decoration: none;
 }
 
@@ -155,7 +156,7 @@ nav{
                                         Compétences
 **************************************************************************************************/
 #competences{
-    background-color:#e8eddf;
+    background-color:#f1f1f2;
     padding: 2% 0% ;
 }
 .services {
@@ -164,8 +165,8 @@ nav{
 }
 .services > article{
     text-align: center;
-    border: 1px solid  #f5cb5c ;
-    background-color:  #f5cb5c;
+    border: 1px solid  #a1d6e2 ;
+    background-color:  #a1d6e2;
     border-radius:7px;
     padding: 20px 25px;
     width:30%;
@@ -175,12 +176,12 @@ nav{
 }
 .services > article >.competence-badge{
     font-size: 40px;
-    color:#e8eddf;
+    color:#f1f1f2;
 }
 
 .services > article > hr {
     width: 50%;
-    border: 1px solid #cfdbd5;
+    border: 1px solid #f1f1f2;
 }
 
 .logo{
@@ -199,24 +200,28 @@ nav{
     height: 30px;
 }
 .logo p{
-    color:#e8eddf;
+    color:#f1f1f2;
     text-transform: uppercase;
     font-size: 1rem;
 }
 @media screen and (max-width: 860px) {
     .services{
-        flex-direction: column;
+        display:block;
+
     }
     .services > article{
         margin-bottom:2rem;
+        width: -webkit-fill-available;
     }
+
+
 }
 
 /**************************************************************************************************
                                         Expérience
 **************************************************************************************************/
 #experience{
-    background: #f5cb5c;
+    background: #a1d6e2;
     padding: 2% 0% ;
     max-height:3000px;
 }
@@ -231,7 +236,7 @@ nav{
     position:absolute;
     content:"";
     width:5px;
-    background: #cfdbd5;
+    background: #f1f1f2;
     left:50%;
     margin-left:-2.5px;
 }
@@ -247,7 +252,7 @@ nav{
     display:table;
 }
 .timeline li .timeline-badge{
-    color:#f5cb5c;
+    color:#a1d6e2;
     width:50px;
     line-height: 50px;
     font-size: 20px;
@@ -256,7 +261,7 @@ nav{
     top:16px;
     left:50%;
     margin-left:-25px;
-    background-color:#e8eddf;
+    background-color:#f1f1f2;
     border-radius: 50%;
 }
 .timeline-panel-container{
@@ -273,12 +278,12 @@ nav{
     height: 20%;
     float: right;
     margin-right: 40px;
-    border: 1px solid #e8eddf;
+    border: 1px solid #f1f1f2;
     border-radius:7px;
     padding: 20px 25px;
     position:relative;
     box-shadow: 0 1px 6px rgba(0,0,0,0.175);
-    background-color: #e8eddf;
+    background-color: #f1f1f2;
 }
 .timeline-panel-container-inverted .timeline-panel{
     float:left;
@@ -290,8 +295,8 @@ nav{
     right:-14px;
     display:inline-block;
     border-top:14px solid transparent;
-    border-left:14px solid #e8eddf;
-    border-right:0 solid #e8eddf;
+    border-left:14px solid #f1f1f2;
+    border-right:0 solid #f1f1f2;
     border-bottom:14px solid transparent;
     content: " ";
 }
@@ -307,17 +312,20 @@ nav{
     font-size: 20px;
 }
 .timeline-heading h4{
-    color:#f5cb5c;
+    color:#a1d6e2;
 }
 @media screen and (max-width: 860px) {
     .timeline-heading h3{
-        font-size: 1.1rem;
+        font-size: 12px;
     }
     .timeline-heading h4{
         font-size: 1rem;
     }
     p{
         font-size: 0.8rem;
+    }
+    .timeline-panel{
+        width:85%;
     }
 
 }
@@ -327,7 +335,7 @@ nav{
                                         Parcours
 ******************************************************************************/
 #formations{
-    background-color:#e8eddf;
+    background-color:#f1f1f2;
     padding: 2% 0% ;
 }
 .school{
@@ -337,23 +345,22 @@ nav{
 
 
 .formation{
-    border: 1px solid black;
-    border: 1px solid #f5cb5c;
+    border: 1px solid #a1d6e2;
     border-radius:7px;
     box-shadow: 0 1px 6px rgba(0,0,0,0.175);
     padding:3% 2%;
     width: 20%;
     text-align: center;
-    background-color:#f5cb5c;   
+    background-color:#a1d6e2;   
 }
 .formation > hr {
     width: 20%;
-    border: 1px solid #cfdbd5;
+    border: 1px solid #f1f1f2;
 }
 
 .formation-badge{
     font-size:40px;
-    color:#cfdbd5;
+    color:#f1f1f2;
     margin:10px 0;
 }
 @media screen and (max-width: 860px) {
@@ -363,7 +370,7 @@ nav{
         align-items: center;
     }
     .formation{
-        width:80%;
+        width: -webkit-fill-available;
         margin-bottom: 2rem;
     }
 }
@@ -371,7 +378,7 @@ nav{
                                         PORTFOLIO
 **************************************************************************************************/
 #portfolio{
-    background: #f5cb5c;
+    background: #a1d6e2;
     padding: 2% 0% ;
     max-height:3000px;
 }
@@ -384,59 +391,137 @@ nav{
 }
 #portfolio img{
     width:90%;
-    border-radius: 5%;
+    border-radius: 7px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.175);
+    margin-bottom: 5%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); 
 }
-/**************************************************************************************************
-                                        PORTFOLIO
-**************************************************************************************************/
-#contact{
-    background-color:#e8eddf;
-    padding: 2% 0% ;
+#portfolio img:hover{
+    filter: none;
+   -webkit-filter: none; 
 }
-.content{
-    display: flex;
-    justify-content: space-around;
+
+@media screen and (max-width: 860px) {
+    #portfolio .apercu{
+    display: block;
+    width: -webkit-fill-available;
+    text-align: center;
+    }
+    #portfolio img{
+        margin-bottom: 5%;
+    }
 }
 
 /**************************************************************************************************
                                         CONTACT
 **************************************************************************************************/
+#contact{
+    background-color:#f1f1f2;
+    padding: 2% 0% ;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin:1%;
+}
+.message > h4{
+    color:#1995ad;
+    padding-left: 5%;
+
+}
+.info > h4{
+    color:#1995ad;
+    padding-left: 5%;
+}
+
 .message , .info{
     width:45%;
     margin:none;
 }
-.message input{
-    margin-bottom: 5%;
+.message div{
+    border: 1px solid #a1d6e2;
+    border-radius:7px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.175);
+    padding: 5% 4%;
+    background-color:#a1d6e2;
+    text-decoration: none;
+    color:#f1f1f2;
+}
+.message input, label, textarea{
+    margin-bottom: 1%;
+    width: -webkit-fill-available;
+
+}
+.message button{
+    background-color:#a1d6e2;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #f1f1f2;
+    border: 1px solid #f1f1f2;
+    display: inline-block;
+    border-radius: 7px;
+    transition: all 0.3s ease-in 0s;
+}
+.message button:hover{
+    background: #f1f1f2;
+    color: #a1d6e2;
+    text-decoration: none
 }
 address{
     margin:0;
-}
-.info div{
-    border: 1px solid #cfdbd5;
-    padding: 5%;
-    margin-bottom:2%;
-}
-.info .fas{
-    padding:2%;
-    margin: 1% 1% 1% 0%;
-    background: #f5cb5c;
-    color:#e8eddf;
-    border-radius: 100%;
+    text-decoration: none;
+    color:#f1f1f2;
 }
 
+.info div{
+    border: 1px solid #a1d6e2;
+    border-radius:7px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.175);
+    padding:3% 2%;
+    background-color:#a1d6e2;
+    text-decoration: none;
+    color:#f1f1f2;
+    margin-bottom: 2%;
+}
+.info div a{
+    text-decoration: none;
+    color:#f1f1f2;
+}
+
+.info div  .fas{
+    padding:2%;
+    margin: 1% 1% 1% 0%;
+    background: #a1d6e2;
+    color:#f1f1f2;
+    border-radius: 100%;
+}
+@media screen and (max-width: 860px) {
+.content{
+    display:block;
+}
+.message , .info{
+    width:100%;
+    margin:none;
+    width: -webkit-fill-available;
+}
+.message input, label, textarea{
+    width: -webkit-fill-available;
+}
+}
 
 /**************************************************************************************************
                                         FOOTER
 **************************************************************************************************/
 
 footer{
-    background: #333;
+    background: #a1d6e2;
     padding: 20px 0 40px;
 }
 footer .fas{
     font-size:  25px;
     margin: 20px;
-    color: #d82c2e;
+    color: #f1f1f2;
     height: 30px;
 }
 footer .fas:hover{

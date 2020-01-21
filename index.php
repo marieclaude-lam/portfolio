@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
 
 </head>
 <!-----------------------------------------------------------------------------------------------------
@@ -21,7 +22,7 @@
 
       
 <nav class="navbar navbar-expand-md navbar-dark sticky-top">
-    <a class="navbar-brand" href="#"></a>
+    <a class="navbar-brand" href="#welcome"><img src="image/marie lam developpeur.png" alt="logo marie-claude lam"></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
             <i class="fas fa-bars fa-lg"></i>
@@ -66,8 +67,18 @@
         <img src="image/profil1.jpg" alt="profil" width=30% height=30%>
         
         <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis culpa aliquam aperiam repellendus? Officiis dicta animi unde quas error, iusto molestiae sunt provident libero. Quas, nulla deleniti! Consequatur, aut?</p>
-        <hr>
+        <p> Bonjour, si vous êtes arrivés sur mon site, ce n’est pas par hasard. <br>
+        </p><p>
+            Je me présente, Marie-Claude Lam, 28 ans, basée à Paris. <br>
+            Après plusieurs années d’expériences dans la communication, toujours en quête de connaissances et de challenges. J’ai décidé de me reconvertir dans un milieu qui ne cesse d’évoluer, la « Programmation » qui est devenue ma passion.
+            <br>
+            J’ai intégré une formation intensive à la 3w Academy et continue à me former sur Udemy, OpenClassroom. 
+        </p><p>
+            Je suis à la recherche de nouveaux projets, n’hésitez pas à me contacter ou à partager mon profil.
+        </p><p>
+            A bientôt !
+        </p>
+ 
         <a href="docs/cv marie-claude lam.pdf" class="button1">Télécharger CV</a>
         </div>
         </div>
@@ -341,21 +352,20 @@
                 <h2> Portfolio </h2>
             </div>
         <div class="apercu">
-            <a href="#"><img src="image/portfolio/creasoul.jpg" alt="html css"></a>
-            <a href="#"><img src="image/portfolio/mindgeek.png" alt="html css"></a>
-            <a href="#"><img src="image/portfolio/realty group.png" alt="html css"></a>
+            <a href="https://www.creasoul.mc-lam.com"><img src="image/portfolio/creasoul.jpg" alt="html css"></a>
+            <a href="https://www.mindgeek.mc-lam.com"><img src="image/portfolio/mindgeek.png" alt="html css"></a>
+            <a href="https://www.realtygroup.mc-lam.com "><img src="image/portfolio/realty group.png" alt="html css"></a>
         </div>
-<br>
+
         <div class="apercu">
-            <a href="#"><img src="image/portfolio/snake.png" alt="javascript"></a>
-            <a href="#"><img src="image/portfolio/travel.png" alt="javascript"></a>
-            <a href="#"><img src="image/portfolio/news.png" alt="javascript"></a>
+            <a href="https://www.snake.mc-lam.com"><img src="image/portfolio/snake.png" alt="javascript"></a>
+            <a href="https://www.travel.mc-lam.com"><img src="image/portfolio/travel.png" alt="javascript"></a>
+            <a href="https://www.news.mc-lam.com"><img src="image/portfolio/news.png" alt="javascript"></a>
         </div>
-<br>
+
         <div class="apercu">
-            <a href="#"><img src="image/portfolio/cup.png" alt="javascript"></a>
-            <a href="#"><img src="image/portfolio/wolfgang.png" alt="javascript"></a>
-            <a href="#"><img src="image/portfolio/news.png" alt="javascript"></a>
+            <a href="https://www.cupoftea.mc-lam.com "><img src="image/portfolio/cup.png" alt="javascript"></a>
+            <a href="https://www.wolfgang.mc-lam.com"><img src="image/portfolio/wolfgang.png" alt="javascript"></a>
         </div>
 
 </section>
@@ -369,32 +379,31 @@
                 <h2>Contact</h2>
             </div>
             <div class="content">
-            <article class="message">
-                    <p>Un message à me transmettre ?</p>
-                    <div>
-                        <label for="nom"> <input type="text" placeholder="Nom" style="width: 223px;"> </label>
-                        <label for="prenom"><input type="text" placeholder="Prénom" style="width: 223px;"></label>
-                        </div>                    
-                        <label for="mail"><input type="email" placeholder="Mail" width="100%" style="width: 450px;"></label>
-                    <br>
-                        <label for="objet"><input type="text" placeholder="Objet" style="width: 450px;"></label>
-                    <br>
-                        <textarea name="message" id="" cols="30" rows="10" placeholder="Votre message" style="width: 450px;"></textarea>
-                    <br>
-                        <button type="submit"> Envoyer </button>
+                <article class="message">
+                <h4> <i class="far fa-comment-alt"></i> Un message ?</h4>
+                        <div>
+                            <input type="text" placeholder="Nom" >                                          
+                            <label for="mail"><input type="email" placeholder="Mail" width="100%"></label>
+                        <br>
+                            <label for="objet"><input type="text" placeholder="Objet" ></label>
+                        <br>
+                            <textarea name="message" id="" cols="30" rows="5" placeholder="Votre message" ></textarea>
+                        <br>
+                            <button type="submit"> Envoyer </button>
+                        </div>
                 </article>
-                <article class="info">
-                    <p>Mes Coordonnées</p>
-                    <div >
-                    <a href="https://www.google.com/maps/place/19e+Arrondissement+de+Paris,+75019+Paris/@48.8870901,2.3527106,13z/data=!3m1!4b1!4m5!3m4!1s0x47e66dc8c1efd7e7:0x50b82c368941b70!8m2!3d48.8823992!4d2.3819935"><address> <i class="fas fa-map-marker-alt"></i> Paris 19ème</address></a>
-                    <a href="mailto:marieclaude.lam@gmail.com"><i class="fas fa-envelope"></i>contact@mclam.fr</a><br>
-                    <a href="tel:+33750318636" »><i class="fas fa-phone"></i>07.50.31.86.36</a>
-                    </div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41975.76277629777!2d2.3527106278046!3d48.88709014819185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66dc8c1efd7e7%3A0x50b82c368941b70!2s19e%20Arrondissement%20de%20Paris%2C%2075019%20Paris!5e0!3m2!1sfr!2sfr!4v1578937171409!5m2!1sfr!2sfr" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </article>
-               
-                
-             </div>
+                    <article class="info">
+                        <h4> <i class="fas fa-child"></i> Mes Coordonnées</h4>
+                        <div >
+                        <a href="https://www.google.com/maps/place/19e+Arrondissement+de+Paris,+75019+Paris/@48.8870901,2.3527106,13z/data=!3m1!4b1!4m5!3m4!1s0x47e66dc8c1efd7e7:0x50b82c368941b70!8m2!3d48.8823992!4d2.3819935"><address> <i class="fas fa-map-marker-alt"></i> Paris 19ème</address></a>
+                        <a href="mailto:marieclaude.lam@gmail.com"><i class="fas fa-envelope"></i>contact@mclam.fr</a><br>
+                        <a href="tel:+33750318636" »><i class="fas fa-phone"></i>07.50.31.86.36</a>
+                        </div>
+                    </article>
+            </div>
+            <div style="text-align:center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41975.76277629777!2d2.3527106278046!3d48.88709014819185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66dc8c1efd7e7%3A0x50b82c368941b70!2s19e%20Arrondissement%20de%20Paris%2C%2075019%20Paris!5e0!3m2!1sfr!2sfr!4v1578937171409!5m2!1sfr!2sfr" text-align="center;" width="90%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
 </section>
 <!-----------------------------------------------------------------------------------------------------
                                            FOOTER
@@ -413,4 +422,5 @@
         </footer>
 
 </body>
+
 </html>
